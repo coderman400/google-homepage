@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     
+
+     <style>
+
+         #maindiv{
+             display:flex;
+             flex-direction: column;
+             
+             
+         }
+
+         #middle{
+             display:flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             position:relative;
+             top:240px;
+             
+
+         }
+         
+         #searchbar{
+        
+             width:650px;
+             height:30px;
+             border-radius:80px;
+             border:1px solid rgb(146, 146, 146);
+             padding:4px;
+         }
+
+         .submit{
+            
+            background:white;
+            height: 40px;
+            width:160px;
+            font-size:15px;
+            font-weight: 375;
+            border-radius:10px;
+            border-color:rgb(202, 202, 202);
+            
+            
+            
+         }
+         .submit:hover{
+             background:rgb(231, 231, 231)
+
+         }
+
+         #logo{
+             height:130px;
+             padding:10px;
+             
+
+         }
+         #searchystuff{
+             display:flex;
+             justify-content: space-between;
+             padding:20px;
+            
+         }
+        
+        #googlesearch{
+            margin-left:0px;
+        }
+
+        #imfeelinglucky{
+            margin-left:60px;
+        }
+
+        .navbar{
+            
+            
+            overflow: hidden;
+            list-style-type: none;
+            display:flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            
+            
+        }
+        .footer{
+            position:absolute;
+            bottom:0px;
+            overflow:hidden;
+            list-style-type: none;
+            padding:5px;
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            width:2000px;
+            left:0;
+            margin:0;
+            background:rgb(233, 233, 233);
+        }
+
+        li,.footer{
+            padding:10px;
+            font-weight: 10;
+
+
+        }
+
+
+        li,a{
+            float:right;
+            color:rgb(0, 0, 0);
+            
+
+        }
+        a{
+            padding:15px;
+            display:block;
+            
+            text-decoration: none;
+            
+        }
+        #apps{
+            padding:10px;
+            border-radius: 50%;
+            background-color: rgb(221, 221, 221);
+
+            
+            
+            
+        }
+
+
+
+        #signin{
+            background-color: white;
+            background:#2b7de9;
+            border-radius: 12px;
+            top:10px;
+            color:white;
+            font-weight: 500;
+            font-family:Helvetica;
+
+        }
+        #signin:hover{
+            background:#398fff;
+            border-radius: 12px;
+        }
+        
+
+         
+        
+     </style>
+     
+ </head>
+    <body>
+        <main>
+            <div id="maindiv">
+                <div id="navbar">
+                    <ul class="navbar">
+                        <li>
+                            <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                
+                        </li>
+                        <li>
+                            <a href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.co.in/intl/en/about/products"><img id="apps"src="apps.png"></a>
+                        </li>
+                        <li>
+                            <a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="middle">
+                    <img id="logo" src="googlelogo.png">
+                    <input id="searchbar" type="text" placeholder="Search">
+                    <div id="searchystuff">
+                                       
+                        <input class="submit" id="googlesearch" type="submit" value="Google search">                          
+                        <input class="submit" id="imfeelinglucky" type="submit" value="I'm feeling lucky">  
+                        
+                    </div>
+                </div>
+                
+                    
+
+            </div>
+
+
+            <ul class="footer">
+                <li>
+                    About
+                </li>
+                <li>
+                    Advertising
+                </li>
+                <li>
+                    Business
+                </li>
+                <li>
+                    How Search works
+                </li>
+                <li>
+                    Waddup dood
+                </li>
+            </ul>     
+        </div>
+
+    </main>
+
+    </body>
+
+</html>
